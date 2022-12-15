@@ -33,4 +33,4 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
-!/8718972d-69a0-4e2a-a1f6-f5d1fc75d04f.m3u
+/8718972d-69a0-4e2a-a1f6-f5d1fc75d04f.m3u

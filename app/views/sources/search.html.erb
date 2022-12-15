@@ -1,0 +1,15 @@
+Count: <%= @count %>
+<% @tracks.each do |track| %>
+  <p>
+    <%= form_with(url: "/url") do |form| %>
+
+    <% dir = track.comment.strip! %>
+    <p>mkdir '<%= dir %>' </p>
+    <p>wget -O '<%=  dir %>/video.mp4' <%= track.segment %> <p>
+
+
+    <% end %>
+
+  </p>
+
+<% end %>

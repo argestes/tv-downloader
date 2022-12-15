@@ -1,0 +1,16 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @source %>
+
+<p>
+
+  Contains <%= @count.to_int %> items
+
+</p>
+
+<div>
+  <%= link_to "Edit this source", edit_source_path(@source) %> |
+  <%= link_to "Back to sources", sources_path %>
+
+  <%= button_to "Destroy this source", @source, method: :delete %>
+</div>
